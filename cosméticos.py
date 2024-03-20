@@ -14,6 +14,10 @@ lista_produtos [4] = "Creme hidratante"
 # Removendo dois indices da lista
 lista_produtos.pop(7)
 
+# Adicinando dois indices a lista
+lista_produtos.append("Sabonete demaquilante")
+lista_produtos.append("Fixador de maquiagem")
+
 # Concatenar os itens da lista coma a frase.
 for i in range(len(lista_produtos)):
     print("Temos"  , lista_produtos[i] , "á venda!")
